@@ -58,7 +58,7 @@ nav a:hover {
 }
 
 .hello {
-    background: #fff3e6;
+    background-color: #f8f9fa;
     padding: 5px 15px;
     border-radius: 20px;
     color: orange;
@@ -85,7 +85,7 @@ nav a:hover {
 
 .primary {
     background: linear-gradient(45deg, orange, #ff6a00);
-    color: white;
+    color: rgb(243, 154, 20);
 }
 
 .primary:hover {
@@ -99,7 +99,7 @@ nav a:hover {
 
 .secondary:hover {
     background: orange;
-    color: white;
+    color: rgba(255, 255, 255, 0.692);
 }
 
 /* Experience */
@@ -165,7 +165,15 @@ body {
     padding: 80px;
     background: #f8f9fa;
 }
+.projects h1{
+    text-align:center;
+    color:black;
+}
 
+.project h2{
+    color:#ff8800;
+    margin-bottom:5px;
+}
 .projects h2 {
     text-align: center;
     margin-bottom: 50px;
@@ -181,7 +189,7 @@ body {
 }
 
 .project-card {
-    background: white;
+    background:white;
     width: 320px;
     padding: 25px;
     border-radius: 20px;
@@ -194,6 +202,14 @@ body {
 }
 
 .project-card h3 {
+    .project h2{
+    color: orange;
+}
+
+.project h3{
+    color: black;
+    margin-top:10px;
+}
     color: orange;
     margin-bottom: 10px;
 }
@@ -226,4 +242,68 @@ body {
 }
 
 
+.projects{
+    padding:50px;
+    background:#f5f5f5;
+}
 
+.projects h1{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.project{
+    margin-bottom:50px;
+}
+
+.project h2{
+    color:#ff8800;
+    margin-bottom:5px;
+}
+
+.project p{
+    margin-bottom:15px;
+}
+
+.project img{
+    width:100%;
+    max-width:900px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+.projects{
+    padding:50px;
+    background:#f5f5f5;
+}
+
+.projects h1{
+
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.project{
+    margin-bottom:60px;
+}
+
+.project h2{
+    .project h2{
+    color:black
+}
+    color:#ff8800;
+}
+
+.project img{
+    width:100%;
+    max-width:900px;
+    border-radius:10px;
+    margin-top:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+video{
+    width:100%;
+    max-width:900px;
+    margin-top:15px;
+    border-radius:10px;
+}
